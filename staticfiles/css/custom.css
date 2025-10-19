@@ -1,0 +1,52 @@
+/*
+Custom CSS for the To-Do App
+*/
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Lato', sans-serif;
+}
+
+.card {
+    border: none;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+.btn-primary {
+    background-color: #4A90E2;
+    border-color: #4A90E2;
+}
+
+.btn-primary:hover {
+    background-color: #357ABD;
+    border-color: #357ABD;
+}
+
+.list-group-item {
+    border-left-width: 4px;
+    border-left-color: #E0E0E0;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.list-group-item:hover {
+    background-color: #F9F9F9;
+}
+
+.list-group-item.completed {
+    border-left-color: #50E3C2;
+}
+
+.list-group-item.completed .flex-grow-1 {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.form-check-input:checked {
+    background-color: #50E3C2;
+    border-color: #50E3C2;
+}
