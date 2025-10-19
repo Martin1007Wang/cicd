@@ -36,7 +36,9 @@
           {% endfor %}
         </ul>
         {% else %}
-        <p class="text-center text-muted">Your to-do list is empty.</p>
+        <div class="empty-state">
+          <p class="mb-0">Your to-do list is empty. Add a new item to get started!</p>
+        </div>
         {% endif %}
       </div>
     </div>
