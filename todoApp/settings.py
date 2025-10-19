@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", ".vercel.app", "django-todo-lemon.vercel.app"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", ".vercel.app", "cicd-3n14.onrender.com"]
 
 
 # Application definition
