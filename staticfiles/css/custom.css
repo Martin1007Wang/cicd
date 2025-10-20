@@ -2,13 +2,33 @@
 Custom CSS for the To-Do App
 */
 
+html, body {
+    height: 100%;
+}
+
 body {
+    display: flex;
+    flex-direction: column;
     background-color: #F5F5F5;
     font-family: 'Lato', sans-serif;
 }
 
+main {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
 .card {
     border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 8px 24px rgba(0,0,0,0.12);
 }
 
 .card-title {
@@ -49,4 +69,21 @@ body {
 .form-check-input:checked {
     background-color: #50E3C2;
     border-color: #50E3C2;
+}
+
+.btn-outline-danger {
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: white;
+}
+
+.empty-state {
+    padding: 40px 20px;
+    background-color: #fafafa;
+    border-radius: .25rem;
+    text-align: center;
+    color: #6c757d;
 }
