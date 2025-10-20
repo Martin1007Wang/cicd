@@ -29,7 +29,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get("DEBUG", "False").lower() == "true"
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", ".vercel.app", "cicd-3n14.onrender.com"]
+ALLOWED_HOSTS = ["127.0.0.1", "localhost", ".vercel.app", "cicd-3n14.onrender.com", "cicd-1-tc5m.onrender.com"]
 
 
 # Application definition
